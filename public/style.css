@@ -1,0 +1,74 @@
+/****** Main Styling ******/
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #fff;
+  background-image: linear-gradient(to top, #fff, #ddeeff);
+	text-align: left;
+	line-height: 1.5em;
+}
+
+.container {
+	padding: 0;
+	margin-top: 40px;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+#footer {
+  width: 300px;
+  padding-top: 10px;
+  border-top: 1px solid #222;
+  text-align: center;
+  margin:auto;
+	margin-top: 40px;
+}
+
+.user-stories {
+  position: relative;
+  text-align: justify;
+  margin: 15px;
+}
+
+code {
+  font-family: monospace;
+  padding: 2px;
+  color: black;
+  background-color: #fff;
+}
+ol {
+	list-style-position: outside;
+}
+ul {
+	list-style-type: none;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+.user-stories li {
+  margin-bottom: 1em;
+}
+
+a {
+	color: #2574A9;
+}
+
+.button{
+  margin-right: 20px;
+  width: 200px;
+  font-size: 20px;
+  background-color: #fff;
+  border: 2px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+}
+
+.button:hover{
+  background-image: linear-gradient(to top right,  #ddeeff, #ccddff);
+}
